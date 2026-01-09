@@ -151,7 +151,11 @@ img {
 
   block-size: cover;
   background-position: center;
-  background-image: url('../images/people-office\ 1.jpg');
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/people-office\ 1.jpg');
   background-repeat: no-repeat;
 }
 
@@ -192,6 +196,18 @@ img {
 }
 
 /* ---------features------- */
+
+.svg-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  height: 112px;
+  background: #f4f4fd;
+  border-width: 5px;
+  border-color: #2e2f42;
+}
 
 .features {
   padding: 120px 0;
